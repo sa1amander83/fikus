@@ -1,0 +1,341 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* @import url('css/font-awesome.min.css');*/
+
+/* In html file */
+/*<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta name="viewport" content="width=device-width">*/
+
+/**
+ * 8.0 Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+/* Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+@media (max-width: 1599px) {
+
+}
+
+@media (max-width: 1400px) {
+
+}
+@media (max-width: 1300px) {
+	#board_ofdirsec .owl-carousel .owl-nav button.owl-prev, #board_ofdirsec .owl-carousel .owl-nav button.owl-next{ position: static; }
+	
+	#board_ofdirsec .owl-carousel .owl-nav{ position: absolute; right: 10px; top: -110px;}
+}
+@media (max-width: 1200px) {
+	.pg_heading{ font-size: 38px;}
+	header .header_btm a, .searchive_headdv a{ font-size: 14px;}
+	}
+
+@media (max-width: 1069px) {
+	#magazine_sec .magazine_secbx .magazine_secbxinner p{ font-size: 14px; line-height: 22px;}
+	header .header_btm a{ padding: 8px 10px;}
+	.searchive_resultDv{ margin-top: 30px;}
+.searchive_resultDv .column.is-one-quarter { width: 33.333% !important; float: left;}
+.searchive_resultDv .column.is-one-quarter .column.is-half{ width: 50%; float: left;}
+.searchive_resultDv .column.is-one-quarter .columns.is-gapless:after{ content: ''; display: block; clear: both;}
+}
+
+@media (max-width: 992px) {
+	a.dropdown-toggle:hover~.dropdown-menu, a.dropdown-toggle~.dropdown-menu:hover{ display: none;}
+	.dropdown-menu.open{ display: block !important;}
+	.dropdown-menu .dropdown-menu{ display: none;}
+
+	#contact_pg form{ width: 85%;}
+	.security_dv label{ display: block;}
+	.security_dv .input.text.required{ display: inline-block; margin-left: 20px;}
+	#nursuries_sec .nursuries_bx h4{ font-size: 16px;}
+	#nursuries_sec .nursuries_bx h6{ font-size: 14px;}
+	#nursuries_sec .col-md-3{ padding-left: 5px !important; padding-right: 5px !important;}
+	#nursuries_sec .row{ margin-left: -5px !important; margin-right: -5px !important;}
+	#library_newssec .more_magazinesdiv ul li a{ font-size: 16px;}
+	#library_newssec .more_magazinesdiv ul{ height: 320px;}
+#library_newssec .col-md-7, #library_newssec .col-md-5{ align-self: center;}
+	.cvDataTblFirst{ margin-top: -60px;}
+.cvDataTblFirst>tbody>tr>td:first-child, .cvDataTblFirst>tbody>tr>td:last-child{ width: 100%; display: block; height: auto;}
+.cvDataTblFirst>tbody>tr>td:nth-child(2) { display: none;}
+
+	.cvIndex_serachDv>tbody>tr>td:first-child{ display: none;}
+	.cvIndex_serachDv>tbody>tr>td:nth-child(2) { width: 70%;}
+	.cvIndex_serachDv>tbody>tr>td:last-child{ width: 30%;}
+	.genealogy_treePg table, .genealogy_treePg table td.widthAdjust{ width: 96% !important;}
+	.genealogy_treePg table img{ max-width: 100%; width: auto !important;}
+	#board_ofdirsec .owl-carousel .owl-nav{ display: none;}
+	#about_pgsec .about_pgtxt hgroup{ margin-top: 12px;}
+	#about_pgsec .about_pgtxt hgroup h2, #about_pgsec .about_pgtxt hgroup h5{ padding-left: 0px; text-align: center;}
+	#about_pgsec .about_pgtxt hgroup h5:before{ display: none;}
+	#about_pgsec .about_pgtxt hgroup h5{ margin-bottom: 0px;}
+	#about_pgsec img{ width: auto; margin: auto; display: block;}
+	#about_pgsec .col-md-6{-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;}
+	#excelloVideos .col-md-4{     -ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;}
+	.pg_heading{ font-size: 32px;}
+	#magazine_sec .col-md-5{-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%; margin-top: 60px;}
+		.fb_div iframe{ width: auto; border-right: 1px solid #ddd !important; height: 359px;}
+		#magazine_sec .col-md-5 ._65wk{ margin: auto;}
+	#hibiscus_sec .col-md-3{ -ms-flex: 0 0 33.333%;
+		flex: 0 0 33.333%;
+		max-width: 33.333%;}
+		#hibiscus_sec .row{ justify-content: center;}
+	#hibiscus_sec .hibiscus_secbx h4{ font-size: 16px;}
+	#slider_sec p { width: 65%;}
+	#slider_sec h1{ font-size: 48px;}
+	#slider_sec h6{ font-size: 30px;}
+	#slider_sec .slider_cntoverlay{ padding-top: 7%;}
+	/* frmSearch */
+	.searchive_frmdv{ width: 100%; display: block;}
+.searchive_frmdv .column.is-half{ width: 100%; float: none;}
+.searchive_frmdv .columns{ display: block !important;}
+.searchive_frmdv .field.has-addons .control.has-icons-left .select, .searchive_frmdv .field.has-addons .control.has-icons-left .select select{ width: 100%;}
+	/*  */
+	/* inner_pgHeader */
+	.user_manualbtn{ top: 144px;}
+.inner_pgHeader .inner_pgHeaderNav{ position: fixed; width: 260px; left: -260px; top: 30%; z-index: 9999; transition: .5s; -o-transition: .5s; -moz-transition: .5s; -webkit-transition: .5s;}
+.inner_pgHeader .inner_pgHeaderNav.open{ left: 0px; background-color: transparent !important;}
+.inner_pgHeader .inner_pgHeaderNav .container{ padding: 0px;}
+.inner_pgHeader .inner_pgHeaderNav .inner_pgHeaderNavinner{ position: relative; height: 270px;}
+.inner_pgHeader .inner_pgHeaderNav .inner_pgHeaderNavinner .inner_pgheaderToggle{ height: 35px; width: 35px; color: #fff; position: absolute; left: 100%; background-color: #209cee; text-align: center; line-height: 35px; display: block;}
+.inner_pgHeader .inner_pgHeaderNav .inner_pgHeaderNavinner .inner_pgheaderToggle svg{ transform: scale(1.3);}
+.inner_pgHeader .inner_pgHeaderNav .inner_pgHeaderNavinner .inner_pgheaderToggle svg path{ fill: #fff;}
+.inner_pgHeader .inner_pgHeaderNav nav{ background-color: #fff !important; padding: 0px 0px;  -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.35);
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.35); display: block !important; height: 100%; overflow-y: scroll;}
+	.inner_pgHeader .inner_pgHeaderNav nav p{ display: block; margin: 0px;}
+	.inner_pgHeader .inner_pgHeaderNav nav p a, .inner_pgHeader .inner_pgHeaderNav nav p a:hover{ display: block; text-align: left; margin: 0px; padding: 4px 12px; text-decoration:none; border-bottom: 1px solid #ddd; color: #000;}
+
+	/*  */
+	header .header_tp ul li:last-child{ display: none;}
+	.dropdown-menu{ position: relative !important; transform: inherit !important; float: none !important; width: 100%; background-color: transparent !important; margin: 0px !important; padding: 0px !important;}
+	.dropdown-menu{background-color: #c4163c !important;}
+	.dropdown-menu .dropdown-menu{background-color: #af1436 !important;}
+	.dropdown-menu .dropdown-menu .dropdown-menu{background-color: #97102e !important;}
+
+	.dropdown-menu .dropdown-menu{ position: relative; left: 0px !important;}
+	.dropdown-menu{ opacity: 1;}
+	header .header_btm nav>.nav>li:first-child a{ margin: 0px; display: inline-block; border-bottom: none; padding: 10px; background-color: rgba(0,0,0,0.35); color: #fff; width: 40px; height: 40px; text-align: center;}
+	header .header_btm nav .nav li:first-child a i{ display: inline-block; color: #fff; font-size: 18px; }
+	header .header_btm nav .nav li:first-child{ border-bottom: 1px  solid rgba(255,255,255,0.4);}
+	header .header_btm nav a, header .header_btm nav a:hover{ margin: 0px; padding: 10px 12px;  color: #fff; font-size: 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.4);}
+.mobile_view_menu, header .header_btm nav .nav li:first-child{ display: block;}
+header .header_btm{ position: relative;}
+header .header_btm nav{position: fixed; width: 300px; right: -300px; top: 0px; z-index: 9999; background-color: #da1d46; padding: 0px 0px 20px; height: 100%; -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.35);
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.35);  transition: .5s; -o-transition: .5s; -moz-transition: .5s; -webkit-transition: .5s; }
+	header .header_btm nav.open{ right: 0px;}
+	body{ overflow-x: hidden;}
+
+header .header_btm nav .nav{ display: block !important; height: 100%; overflow-y: scroll;}
+header .header_btm{ padding: 10px 0px;}
+header .header_btm .btn-site{ min-width: 140px; color: #fff;}
+header .header_btm .mn_menuToggle{ background-color: #da1d46; height: 36px; width: 36px; text-align: center; display: inline-block; color: #fff; font-size: 18px;  border-radius: 2px; line-height: 22px;}
+header .header_btm .mn_menuToggle svg path{ fill: #fff;}
+
+.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:first-child{ width: 86% !important; margin: auto;}
+.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:first-child td{ width: 33.333% !important; vertical-align: bottom;}
+.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:first-child td img{ width: 100% !important; height: auto;}
+
+.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(3), .genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(5){ width: 100% !important; margin: auto;}
+.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(4){ width: 80% !important; margin: auto;}
+.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(3)>tbody>tr>td{ width: 20% !important;}
+.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(3)>tbody>tr> td:first-child, .genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(3)>tbody>tr>td:last-child, .genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(4)>tbody>tr> td:first-child, .genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(4)>tbody>tr> td:last-child, .genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(5)>tbody>tr> td:first-child, .genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(5)>tbody>tr> td:last-child{ display: none;}
+.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(4)>tbody>tr> td{ width: 20%;}
+.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(4)>tbody>tr> td img{ width: 100%; height: auto;}
+.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(5)>tbody>tr> td{ width: 18%;}
+.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(5)>tbody>tr> td:nth-child(4){ width: 24%;}
+.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(5)>tbody>tr> td img{ width: 100%; height: auto;}
+.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(3)>tbody>tr>td img{ width: 100% !important;}
+.widthAdjustMntbl{    background-position: 0px 17px;
+    background-size: 100% 94%;
+}
+} 
+@media (max-width: 800px) {
+}
+/* Collapse oversized image and pulled images after iPad breakpoint. */
+@media (max-width: 767px) {
+	#seed_sec h6, #seed_sec h6 a{ font-size: 16px;}
+	#seed_sec ul{ display: flex; justify-content: center;}
+	#nursuries_sec .col-md-3{-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;}
+	.warn_msg{ margin-top: -40px; display: block;}
+	.cvIndexmnTbl tr td{ width: 100% !important; display: block; height: auto;}
+	.cvIndexmnTbl tr td tr{ min-height: 50px; padding: 0px;}
+	.cvIndexmnTbl tr td tr td{ width: 50% !important; display: table-cell; padding-left: 8px; text-align: center;}
+	.cvIndex_serachDv>tbody>tr>td:nth-child(2) { width: calc(100% - 175px);}
+	.cvIndex_serachDv>tbody>tr>td:last-child{ width: 170px}
+	.cvIndex_serachDv tr td select{ width: 100%;}
+	.rePendingRow .column.is-one-quarter{ width:50%; float:left; flex-basis:inherit !important;}
+	#how_to_articlepg1 h2{ font-size: 26px;}
+	.pg_heading{ font-size: 24px;}
+	#about_sec, #hibiscus_sec, #magazine_sec, #how_to_articlepg1, #excelloVideos, #contact_pg.registration_frm, #contact_pg{ padding: 30px 0px;}
+	#statutes_sec{ padding-bottom: 30px;}
+	#about_sec .about_cntdv{ margin-top: 50px;}
+	#slider_sec p { width: 75%;}
+	#slider_sec h1{ font-size: 35px;}
+	#slider_sec .owl-item{ height: 370px;}
+	.searchive_resultDv .column.is-one-quarter { width: 50% !important; float: left;}
+}
+
+@media (max-width: 643px) {
+	.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(4)>tbody>tr> td{ width: 24%;}
+	.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(3)>tbody>tr>td{ width: 22%;}
+	.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(3)>tbody>tr>td:nth-child(4){ width: 12%;}
+	.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(4)>tbody>tr> td{ width: 23%;}
+	.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(5)>tbody>tr> td{ width: 20%;}
+	.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(5)>tbody>tr> td:nth-child(4){ width: 20%;}
+	.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(3)>tbody>tr>td img{ height: auto;}
+	.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:first-child td{ vertical-align: middle;}
+	.genealogy_treePg table td{ height: 50px !important;}
+	#excelloVideos h4{ text-align: center; font-size: 17px;}
+	#excelloVideos h4 br{ display: none;}
+	#page_headingbg>img{ height: 128px;}
+	#hibiscus_sec .col-md-3{ -ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;}
+	hgroup.heading_hg h2{ font-size: 28px;}
+	#slider_sec p { width: 90%;}
+	header .logo{ width: 335px;}
+	.field.has-addons .control.has-icons-left{ width: 50%;}
+	.searchive_frmdv .field.has-addons .control.has-icons-left:nth-child(3n) select{ border-radius:0px;}
+.searchive_frmdv .field.has-addons .control.has-icons-left:nth-child(3n + 1) select{ border-radius:0px;}
+
+.searchive_frmdv .field.has-addons .control.has-icons-left:nth-child(2n) select{ border-radius:0px 50px 50px 0px;}
+.searchive_frmdv .field.has-addons .control.has-icons-left:nth-child(2n + 1) select{ border-radius:50px 0px 0px 50px;}
+.searchive_frmdv .field.has-addons .control.has-icons-left .select .icon, .searchive_frmdv .icon{ display: none !important;}
+.searchive_frmdv button[type="submit"] .icon{ display: block !important;} 
+.searchive_frmdv .field.has-addons .control.has-icons-left .select select{ padding-left: 10px;}
+}
+@media (max-width: 576px) {
+	.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:first-child td img, .genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(3)>tbody>tr>td img{ height: auto !important;}
+	.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(4)>tbody>tr> td img, .genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(5)>tbody>tr> td img{ width: 100% !important; height: auto !important;}
+	.security_dv{ text-align: center;}
+	#library_newssec .more_magazinesdiv h5{ font-size: 20px;}
+	#library_newssec .more_magazinesdiv ul li a{ font-size: 14px;}
+	.cvDataTblFirst>tbody>tr>td td{ display: block; width: 100%; height: auto;}
+	.warn_msg{ text-align: justify !important; font-size: 16px !important;}
+	.cvIndexmnTbl tr td tr td, .cvIndex_serachDv>tbody>tr>td:nth-child(2), .cvIndex_serachDv>tbody>tr>td{ width: 100% !important; display: block;}
+	.cvIndex_serachDv>tbody>tr>td select{ margin-top: 12px;}
+	.message.is-warning p{ font-size: 14px; text-align: justify;}
+	.rePendingRow .column.is-one-quarter{ width:100%; float:left; flex-basis:inherit !important;}
+	#excelloVideos .col-md-4 {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;}
+	#how_to_articlepg1 h2{ font-size: 22px;}
+	#how_to_articlepg1 h6{ font-size: 16px;}
+	#how_to_articlepg1 h6 br{ display: none;}
+	.pg_heading{ font-size: 20px;}
+	footer .copyright_dv p{ font-size: 14px;}
+	#magazine_sec .col{-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%; text-align: center; margin-bottom: 60px;
+		}
+		#magazine_sec .col-md-5{ margin-top: 10px;}
+	hgroup.heading_hg{ width: 100%;}
+	#about_sec p{ font-size: 16px;}
+	#about_sec .text-left{ text-align: center !important;}
+	hgroup.heading_hg h2{ font-size: 24px; text-align: center;}
+	hgroup.heading_hg h5{ text-align: center; padding-left: 0px;}
+	hgroup.heading_hg h5:before, hgroup.heading_hg h5:after{ display: none !important;}
+	#about_sec .about_cntdv{ margin-top: 60px;}
+	#slider_sec h1{ font-size: 28px; text-align: center;}
+	#slider_sec h1 br{ display: none;}
+	#slider_sec p{ width: 100%; text-align-last: center; -ms-text-align-last: center; -moz-text-align-last: center; font-size: 16px; text-align: center;}
+	#slider_sec .text-left{ text-align: center !important;}
+	#slider_sec h6{ font-size: 20px; text-align: center;}
+	#slider_sec .owl-item{ height: 260px;}
+	.searchive_resultDv .column.is-one-quarter { width: 100% !important; float: left;}
+.searchive_resultDv .column.is-one-quarter .column.is-half{ width: 100%; float: left;}
+	.logo_windowv{ display:none;}
+    .logo_mobilev{ display:block;}
+	header .logo{ width: 125px;}
+	/* .searchive_frmdv>.container>.columns .box{ padding-left: 0px; padding-right: 0px;} */
+	#statutes_sec #accordion ol li, #statutes_sec #accordion .card-block h6, #statutes_sec #accordion .card-header h5 a{ font-size: 14px;}
+	.genealogy_treePg table td{ height: 50px !important;}
+	.genealogy_treePg table img{ height: 72px !important;}
+	.widthAdjustMntbl{ background-size: 100% 95% !important;}
+	.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:first-child>tbody>tr>td:nth-child(2){ position: relative; top: -5px;}
+}
+@media (max-width: 480px) {
+	.genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(3), .genealogy_treePg .widthAdjustMntbl>tbody>tr>td>table:nth-child(5){ width: 95% !important;}
+	#contact_pg form{ width: 100%;}
+	.login_frmdv .d-flex{ flex-direction: column; text-align: center;}
+	.login_frmdv .mt-4.text-left{ text-align: center !important;}
+	#icra_sec .nav-pills{ width: 90%;}
+	#icra_sec .nav-pills li strong{ font-size: 12px;}
+	#icra_sec .nav-pills .nav-link span:before{    border-left: 4px solid transparent;
+		border-right: 4px solid transparent;
+		border-top: 6px solid #da1d46;}
+		#icra_sec .nav-pills .nav-link span{ width: 12px; height: 12px;}
+		#icra_sec .nav-pills .irca_bdr{ top: 6px;}
+	#seed_sec ul{ display: block;}
+	#seed_sec ul li:first-child{ margin-bottom: 10px;}
+	.genealogy_treePg table, .genealogy_treePg table td.widthAdjust{ width: 100% !important;}
+	#how_to_articlepg1 ol li{ line-height: 25px;}
+	.pg_heading{ width: 80%; margin: auto;}
+	#hibiscus_sec .col-md-3{ -ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%; text-align: center;}
+	#about_sec p{ font-size: 14px;}
+	hgroup.heading_hg h2{ font-size: 22px;}
+	#about_sec .about_imgdiv .about_posimg{ display: none;}
+	#about_sec .about_imgdiv .about_imgdiv_img1{ width: auto;}
+	#about_sec .about_cntdv{ margin-top: 30px;}
+	#slider_sec h1{ font-size: 22px;}
+	.searchive_frmdv .field.has-addonsToggle .control.has-icons-left{ width: 100%; margin-top: 5px; float: none;}
+
+}
+@media (max-width: 400px) {
+	#library_newssec ul li{ margin: 0px;}
+	.cvIndex_serachDv>tbody>tr>td table{ width: 100% !important;}
+	.cvIndex_serachDv>tbody>tr>td img{ max-width: 100%;}
+	#slider_sec .btn-site{ padding: 4px 10px; font-size: 15px;}
+	#slider_sec .btn-site span:before{ font-size: 18px;}
+	#slider_sec p{ font-size: 15px;}
+	#slider_sec .slider_cntoverlay{ padding-top: 10%;}
+	header .logo{ width: 108px;}
+	.searchive_frmdv .searchive_frmdvColum .box .field.has-addons .control{ width: 42%;}
+}
+
+/* Mobile devices */
+@media (max-width: 359px) {
+	#magazine_sec .col-md-5{ display: none;}
+	#slider_sec h1{ font-size: 19px;}
+	#slider_sec p{ font-size: 14px;}
+}
+/**
+ * 9.0 Print
+ * ----------------------------------------------------------------------------
+ */
+
+/* Retina-specific styles. */
+@media print,
+	(-o-min-device-pixel-ratio: 5/4),
+	(-webkit-min-device-pixel-ratio: 1.25),
+	(min-resolution: 120dpi) {
+
+}
+
+@media print {
+
+}

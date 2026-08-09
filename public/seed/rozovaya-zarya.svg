@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#ffeef2"/>
+      <stop offset="100%" stop-color="#fbc6d6"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="300" rx="300" ry="260" fill="url(#glow)"/>
+  <!-- листья -->
+  <g opacity="0.85">
+    <ellipse cx="250" cy="450" rx="120" ry="44" fill="#2f7d44" transform="rotate(-28 250 450)"/>
+    <ellipse cx="550" cy="450" rx="120" ry="44" fill="#266b3a" transform="rotate(28 550 450)"/>
+  </g>
+  <g transform="rotate(0 400 300)">
+      <ellipse cx="400" cy="150" rx="60" ry="130" fill="#e8447a" opacity="0.96"/>
+    </g><g transform="rotate(45 400 300)">
+      <ellipse cx="400" cy="150" rx="60" ry="130" fill="#e8447a" opacity="0.96"/>
+    </g><g transform="rotate(90 400 300)">
+      <ellipse cx="400" cy="150" rx="60" ry="130" fill="#e8447a" opacity="0.96"/>
+    </g><g transform="rotate(135 400 300)">
+      <ellipse cx="400" cy="150" rx="60" ry="130" fill="#e8447a" opacity="0.96"/>
+    </g><g transform="rotate(180 400 300)">
+      <ellipse cx="400" cy="150" rx="60" ry="130" fill="#e8447a" opacity="0.96"/>
+    </g><g transform="rotate(225 400 300)">
+      <ellipse cx="400" cy="150" rx="60" ry="130" fill="#e8447a" opacity="0.96"/>
+    </g><g transform="rotate(270 400 300)">
+      <ellipse cx="400" cy="150" rx="60" ry="130" fill="#e8447a" opacity="0.96"/>
+    </g><g transform="rotate(315 400 300)">
+      <ellipse cx="400" cy="150" rx="60" ry="130" fill="#e8447a" opacity="0.96"/>
+    </g><g transform="rotate(22.5 400 300)">
+      <ellipse cx="400" cy="185" rx="51" ry="102.5" fill="#f48fb1" opacity="0.96"/>
+    </g><g transform="rotate(67.5 400 300)">
+      <ellipse cx="400" cy="185" rx="51" ry="102.5" fill="#f48fb1" opacity="0.96"/>
+    </g><g transform="rotate(112.5 400 300)">
+      <ellipse cx="400" cy="185" rx="51" ry="102.5" fill="#f48fb1" opacity="0.96"/>
+    </g><g transform="rotate(157.5 400 300)">
+      <ellipse cx="400" cy="185" rx="51" ry="102.5" fill="#f48fb1" opacity="0.96"/>
+    </g><g transform="rotate(202.5 400 300)">
+      <ellipse cx="400" cy="185" rx="51" ry="102.5" fill="#f48fb1" opacity="0.96"/>
+    </g><g transform="rotate(247.5 400 300)">
+      <ellipse cx="400" cy="185" rx="51" ry="102.5" fill="#f48fb1" opacity="0.96"/>
+    </g><g transform="rotate(292.5 400 300)">
+      <ellipse cx="400" cy="185" rx="51" ry="102.5" fill="#f48fb1" opacity="0.96"/>
+    </g><g transform="rotate(337.5 400 300)">
+      <ellipse cx="400" cy="185" rx="51" ry="102.5" fill="#f48fb1" opacity="0.96"/>
+    </g><g transform="rotate(0 400 300)">
+      <ellipse cx="400" cy="220" rx="42" ry="75" fill="#fde0ea" opacity="0.96"/>
+    </g><g transform="rotate(45 400 300)">
+      <ellipse cx="400" cy="220" rx="42" ry="75" fill="#fde0ea" opacity="0.96"/>
+    </g><g transform="rotate(90 400 300)">
+      <ellipse cx="400" cy="220" rx="42" ry="75" fill="#fde0ea" opacity="0.96"/>
+    </g><g transform="rotate(135 400 300)">
+      <ellipse cx="400" cy="220" rx="42" ry="75" fill="#fde0ea" opacity="0.96"/>
+    </g><g transform="rotate(180 400 300)">
+      <ellipse cx="400" cy="220" rx="42" ry="75" fill="#fde0ea" opacity="0.96"/>
+    </g><g transform="rotate(225 400 300)">
+      <ellipse cx="400" cy="220" rx="42" ry="75" fill="#fde0ea" opacity="0.96"/>
+    </g><g transform="rotate(270 400 300)">
+      <ellipse cx="400" cy="220" rx="42" ry="75" fill="#fde0ea" opacity="0.96"/>
+    </g><g transform="rotate(315 400 300)">
+      <ellipse cx="400" cy="220" rx="42" ry="75" fill="#fde0ea" opacity="0.96"/>
+    </g>
+  
+  <circle cx="400" cy="300" r="44" fill="#b02a5b"/>
+  <g transform="rotate(0 400 300)"><circle cx="400" cy="266" r="7" fill="#f6c945"/></g><g transform="rotate(51.42857142857143 400 300)"><circle cx="400" cy="266" r="7" fill="#f6c945"/></g><g transform="rotate(102.85714285714286 400 300)"><circle cx="400" cy="266" r="7" fill="#f6c945"/></g><g transform="rotate(154.28571428571428 400 300)"><circle cx="400" cy="266" r="7" fill="#f6c945"/></g><g transform="rotate(205.71428571428572 400 300)"><circle cx="400" cy="266" r="7" fill="#f6c945"/></g><g transform="rotate(257.14285714285717 400 300)"><circle cx="400" cy="266" r="7" fill="#f6c945"/></g><g transform="rotate(308.57142857142856 400 300)"><circle cx="400" cy="266" r="7" fill="#f6c945"/></g>
+  <circle cx="400" cy="300" r="20" fill="#e8a712"/>
+</svg>

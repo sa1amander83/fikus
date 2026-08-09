@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#ff8347"/><stop offset="100%" stop-color="#b81d3e"/>
+  </linearGradient></defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <circle cx="200" cy="150" r="78" fill="#ffffff" opacity="0.92"/>
+  <path d="M70 360 q130 -150 260 0 z" fill="#ffffff" opacity="0.92"/>
+  <text x="200" y="178" font-family="Segoe UI, sans-serif" font-size="86" font-weight="700"
+        fill="#5c0f1c" text-anchor="middle">ИТ</text>
+</svg>

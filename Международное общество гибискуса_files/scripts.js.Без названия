@@ -1,0 +1,85 @@
+$('.slider_owl').owlCarousel({
+    loop: true,
+    margin: 10,
+    dots: true,
+    autoplay: true,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: false
+        },
+        600: {
+            items: 1,
+            nav: false
+        },
+        1000: {
+            items: 1,
+            nav: false,
+            loop: false
+        }
+    }
+})
+
+$('.bloom_characterowl').owlCarousel({
+    loop: true,
+    margin: 10,
+    dots: true,
+    autoplay: true,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: false
+        },
+        600: {
+            items: 4,
+            nav: false
+        },
+        1000: {
+            items: 4,
+            nav: false,
+            loop: true
+        }
+    }
+})
+
+
+
+
+$('.board_ofdowl').owlCarousel({
+    loop: true,
+    margin: 10,
+    dots: false,
+
+    nav: true,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: true
+        },
+        480: {
+            items: 2,
+            nav: true
+        },
+        767: {
+            items: 3,
+            nav: true
+        },
+        1000: {
+            items: 4,
+            nav: true,
+            loop: true
+        }
+    }
+})
+
+wow = new WOW({
+    animateClass: 'animated',
+    offset: 100,
+    callback: function(box) {
+        console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+    }
+});
+wow.init();
