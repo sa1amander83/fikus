@@ -48,9 +48,18 @@ export async function searchVarieties(
   };
 
   if (filters.search) {
-    // Поиск только по названию сорта; ILIKE даёт регистронезависимость,
-    // в т.ч. для кириллицы (БД в UTF-8).
-    where.push(`v.name ILIKE ${add(`%${filters.search}%`)}`);
+    // Поиск по названию сорта: каждое введённое слово должно встречаться
+    // где-то в названии (без учёта порядка, регистра и пунктуации), чтобы
+    // можно было найти сорт по одному запомнившемуся слову или части имени.
+    const words = filters.search
+      .split(/\s+/)
+      .map((w) => w.trim())
+      .filter(Boolean);
+    for (const word of words) {
+      where.push(
+        `regexp_replace(v.name, '[,''"«»]', '', 'g') ILIKE ${add(`%${word}%`)}`
+      );
+    }
   }
   if (filters.species) {
     where.push(`v.species = ${add(filters.species)}`);
